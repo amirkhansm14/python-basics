@@ -831,3 +831,11 @@
 #         if a[i]==a[j]:
 #             b=b+1
 #     print(a[i],"=",b)
+a="oneteam" 
+c=set(a)
+for i in c:
+    b=0
+    for j in range(len(a)):
+        if i==a[j]:
+            b=b+1
+    print(i,"=",b)
